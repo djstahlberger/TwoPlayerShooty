@@ -89,6 +89,17 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div class="title">Two Player Shooty Documentation</div>  </div>
 </div><!--header-->
 <div class="contents">
+    <h2>The Game</h2>
+    <h3>What it does</h3>
+    <p>Two Player Shooty is a ,surprisingly , two player game which faces off two worthy oponnents in the depths of space. It takes in key input through a single UART channel and moves the space craft on screen accordingly. These space craft are also equipped with state of the art weaponry that packs quite the punch. However, if these weapons are fired too rapidly they will need time to cool down. 5 rapid fired rounds require a ridiculous amount of cooling. Also, since you are facing a formidable opponent, they will also have powerful weapons, meaning you have about three hits before your ship is toast. After that, the score board is the true tell all. The score board at the end of the game displays both player's scores, the amount of shots fired by each player, and their accuracy.</p>
+    <h3>How do I play?</h3>
+    <p>In order to play Two Player Shooty, all of the correspoinding files have to be downloaded. An MSP430F5529 and an FTDI chip must be hooked up to their corresponding buffers. Then using a terminal program such as PuTTY, set up a 115200 baud rate and find the correct serial port, type in $game shooty play and, blast away!</p>
+    <h3>Future Renovations</h3>
+    <p>Future plans for the game include:</p>
+    <ul>
+        <li>Adding deployable shields to block incoming fire</li>
+        <li>Shot collision in case two equal minded foes decide to shoot in the same spot</li>
+    </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
